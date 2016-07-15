@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="bower_components/jquery/src/event/|bower_components/jquery/src/ajax/var/|bower_components/jquery/src/core/|core/phone/|**/*.min.js|phone-detail/|bower_components/jquery/src/exports/|bower_components/jquery/src/|bower_components/bootstrap/js/|bower_components/jquery/src/effects/|bower_components/jquery/src/core/var/|bower_components/jquery/src/manipulation/|bower_components/bootstrap/grunt/|bower_components/jquery/src/traversing/|bower_components/jquery/src/data/var/|bower_components/jquery/src/traversing/var/|bower_components/angular-mocks/|bower_components/bootstrap/|bower_components/jquery/src/attributes/|bower_components/jquery/external/sizzle/dist/|bower_components/jquery/src/css/|bower_components/jquery/src/var/|**/node_modules/*|bower_components/angular/|bower_components/jquery/src/data/|**/bower_components/*|bower_components/angular-animate/|bower_components/jquery/src/manipulation/var/|bower_components/jquery/src/queue/|bower_components/jquery/src/css/var/|bower_components/jquery/dist/|core/checkmark/|phone-list/|bower_components/angular-resource/|bower_components/jquery/src/ajax/|bower_components/angular-route/|bower_components/bootstrap/dist/js/|core/" kind="src" path="app"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/angular"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/angular-animate"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/angular-mocks"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/angular-resource"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/angular-route"/>
+	<classpathentry excluding="js/|dist/js/|grunt/|**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/bootstrap"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/bootstrap/dist/js"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/bootstrap/grunt"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/bootstrap/js"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/dist"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/external/sizzle/dist"/>
+	<classpathentry excluding="attributes/|data/|data/var/|manipulation/|core/var/|exports/|traversing/|queue/|traversing/var/|ajax/var/|css/|**/*.min.js|**/node_modules/*|**/bower_components/*|effects/|ajax/|event/|var/|css/var/|manipulation/var/|core/" kind="src" path="app/bower_components/jquery/src"/>
+	<classpathentry excluding="var/|**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/ajax"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/ajax/var"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/attributes"/>
+	<classpathentry excluding="var/|**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/core"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/core/var"/>
+	<classpathentry excluding="var/|**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/css"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/css/var"/>
+	<classpathentry excluding="var/|**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/data"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/data/var"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/effects"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/event"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/exports"/>
+	<classpathentry excluding="var/|**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/manipulation"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/manipulation/var"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/queue"/>
+	<classpathentry excluding="var/|**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/traversing"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/traversing/var"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/bower_components/jquery/src/var"/>
+	<classpathentry excluding="phone/|**/*.min.js|**/node_modules/*|**/bower_components/*|checkmark/" kind="src" path="app/core"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/core/checkmark"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/core/phone"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/phone-detail"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="app/phone-list"/>
+	<classpathentry excluding="pages/|utilities/|gulp/|**/*.min.js|**/node_modules/*|**/bower_components/*|spec/" kind="src" path="test"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="test/gulp"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="test/pages"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="test/spec"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="test/utilities"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
