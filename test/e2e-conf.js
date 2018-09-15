@@ -1,4 +1,6 @@
 var Jasmine2Reporter = require('protractor-jasmine2-screenshot-reporter');
+var HtmlReporter = require('protractor-beautiful-reporter');
+
 var path = require('path');
 var basedir = path.resolve(__dirname, '.');
 
@@ -30,6 +32,20 @@ function getOutputDir() {
 	outputDir += '/' + getUniqueOutputDirName();
 	return outputDir;
 }
+
+var anotherRepot = new HtmlReporter({
+   baseDirectory: getOutputDir(),
+   docTitle: 'myReporter',
+	 docName: 'index.html',
+	 screenshotsSubfolder: 'images',
+	 metaDataBuilder: function metaDataBuilder(spec, descriptions, results, capabilities) {
+      // Return the description of the spec and if it has passed or not:
+      return {
+         description: descriptions.join(' ')
+         , passed: results.passed()
+      };
+   }
+});
 
 var reporter = new Jasmine2Reporter({
 	dest : getOutputDir(),
@@ -71,7 +87,7 @@ var invalidBrowserCapabilities = {
 
 function getBrowserCapabilities() {
 	var desiredCapabilities;
-	process.env.browser = "phantomjs"
+	process.env.browser = "chrome"
 	console.log("process env browser " + process.env["browser"])
 	if ((process.env.browser === undefined)
 			|| (process.env.browser === "firefox")) {
@@ -94,7 +110,8 @@ exports.config = {
 	// seleniumAddress : 'http://localhost:4444/wd/hub',
 	seleniumPort : 4444,
 	suites : {
-		all : './spec/phone-cat-e2e-spec-motorolo.js',
+	//all : './spec/phone-cat-e2e-spec-motorolo.js',
+	 all:'./spec/testSqlConnection.js',
 	// motorolo : './spec/phone-cat-e2e-spec-motorolo.js'
 	},
 	suite : "all",
@@ -108,7 +125,8 @@ exports.config = {
 
 	// Assign the test reporter to each running instance
 	onPrepare : function() {
-		jasmine.getEnv().addReporter(reporter);
+		//jasmine.getEnv().addReporter(reporter);
+		jasmine.getEnv().addReporter(anotherRepot.getJasmine2Reporter());
 		var width = 1920;
 		var height = 1080;
 		browser.driver.manage().window().setSize(width, height);

@@ -1,13 +1,24 @@
 {
-  "name": "seconf2016",
-  "version": "1.0.0",
-  "description": "",
-  "devDependencies": {
-    "protractor": "^3.3.0",
-    "protractor-jasmine2-screenshot-reporter": "^0.3.1",
-    "gulp": "^3.8.10",
-    "shelljs": "~0.7.0",
-    "wrench": "~1.5.8"
-  },
-  "engine": "node >= v5.0.0"
+	"name": "manojprotractor",
+	"version": "1.0.0",
+	"description": "",
+	"devDependencies": {
+		"protractor": "^5.3.2",
+		"protractor-jasmine2-screenshot-reporter": "^0.5.0",
+		"gulp": "^3.9.1",
+		"shelljs": "~0.8.2",
+		"wrench": "~1.5.8",
+		"protractor-beautiful-reporter": "1.2.1",
+		"xlsx": "0.13.0",
+		"log4js": "~2.8.0",
+		"xls-to-json": "0.5.0",
+		"node-xlsx": "0.12.1",
+		"convert-csv-to-json": "0.0.13",
+		"mysql": "2.16.0"
+	},
+	"engine": "node >= v5.0.0",
+	"dependencies": {
+		"npm": "^6.1.0",
+		"webdriver-manager": "^12.0.6"
+	}
 }

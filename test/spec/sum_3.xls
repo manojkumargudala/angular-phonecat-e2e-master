@@ -1,0 +1,542 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Version>12.00</Version>
+</DocumentProperties>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<WindowHeight>8130</WindowHeight>
+<WindowWidth>15135</WindowWidth>
+<WindowHeight>8130</WindowHeight>
+<WindowTopX>120</WindowTopX>
+<WindowTopY>45</WindowTopY>
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindow>False</ProtectWindow>
+</ExcelWorkbook>
+<Styles>
+</Styles>
+<Worksheet ss:Name="ag-grid">
+<Table>
+<Column ss:Width="300"/>
+<Column ss:Width="300"/>
+<Column ss:Width="300"/>
+<Row>
+<Cell>
+<Data ss:Type="String">Item Activity Status</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String">Store Avg On Hand Inv Diff</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String">Current Modular Store Count</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Pending</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Pending</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">0</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-1899104</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">1864</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">106671048</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">1865</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-6228764</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">777777777</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">173997847</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">1396</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-4480527</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">414</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">New</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">837645</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3964</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-5435357</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3716</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Pending</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-3428836</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3716</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">4800476</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">New</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-8999106</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">949</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-4559917</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3841</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Deleted</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-9050601</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Deleted</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-65000</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3207</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-273764</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3717</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">23817753523</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3717</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Deleted</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-6363073</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3882</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-1763068</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">2366</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">2403267</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">809</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Pending</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">4697865</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">809</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Pending</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-6139075</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">341</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-5631029</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3944</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Pending</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-5337687</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">370</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-6201857</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">1007</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">New</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">491102</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3132</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-5400781</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3944</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Pending</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-5348460</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3299</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">2403267</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3299</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Deleted</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-9050601</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3299</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-5245393</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3964</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">New</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-4991822</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3964</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-4931675</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3964</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">837645</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">3964</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">New</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-8764349</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-8573520</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">17161108</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-7713168</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-7998910</Data>
+</Cell>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-2568362</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">1891</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-6273384</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">2474</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-64003</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">2473</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-7731207</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">2147</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-6329697</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">2147</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String">Existing</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">-3121042</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">2147</Data>
+</Cell>
+</Row>
+<Row>
+<Cell>
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">23977647847</Data>
+</Cell>
+<Cell>
+<Data ss:Type="Number">777861244</Data>
+</Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
