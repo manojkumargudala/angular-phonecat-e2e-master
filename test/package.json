@@ -18,7 +18,7 @@
 	},
 	"engine": "node >= v5.0.0",
 	"dependencies": {
-		"npm": "^6.1.0",
+		"npm": "^6.13.4",
 		"webdriver-manager": "^12.0.6"
 	}
 }
