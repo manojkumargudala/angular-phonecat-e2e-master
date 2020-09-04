@@ -10,7 +10,7 @@ var mysql = require('mysql');
 log4js.configure('./config/log4js.json');
 describe('Test SQL database', function() {
 
-  it('Test Actual database Connection  ', function() {
+  it('Test Actual database Connection  ', async function() {
 
     var con = mysql.createConnection({
       host: "localhost",

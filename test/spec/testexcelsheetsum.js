@@ -12,7 +12,7 @@ log.info("thsi is the info log");
 log.warn("thsi is the warn log");
 log.error("thsi is the error log");
 
-describe('Comparing grid and excel', function() {
+describe('Comparing grid and excel', async function() {
 
   it('Read Excel changed code test data code', function() {
 

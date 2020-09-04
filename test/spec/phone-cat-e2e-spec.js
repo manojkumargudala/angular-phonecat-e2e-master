@@ -7,7 +7,7 @@ var homePage = require('../pages/home');
 var detailPage = require('../pages/detail');
 
 
-describe('PhoneCat Application', function () {
+describe('PhoneCat Application', async function () {
 
     beforeEach(function () {
         homePage.visit();

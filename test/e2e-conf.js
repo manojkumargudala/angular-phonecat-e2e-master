@@ -110,8 +110,8 @@ exports.config = {
 	// seleniumAddress : 'http://localhost:4444/wd/hub',
 	seleniumPort : 4444,
 	suites : {
-	//all : './spec/phone-cat-e2e-spec-motorolo.js',
-	 all:'./spec/testSqlConnection.js',
+	all : './spec/phone-cat-e2e-spec-motorolo.js',
+	// all:'./spec/testSqlConnection.js',
 	// motorolo : './spec/phone-cat-e2e-spec-motorolo.js'
 	},
 	suite : "all",

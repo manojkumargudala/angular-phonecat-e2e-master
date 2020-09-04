@@ -1,0 +1,26 @@
+{
+  "name": "manojcypress-example",
+  "version": "1.0.0",
+  "description": "This repo contains an example tests written in Cypress",
+  "scripts": {
+    "clean-reports": "rm -rf cypress/reports",
+    "test": "npx cypress run --browser chrome --spec cypress/integration/drag_drop.js",
+    "merge-report": "npx mochawesome-merge cypress/reports/mochawesome-report/*.json > cypress/reports/full_report.json",
+    "generate-report": "npx mochawesome-report-generator --reportDir cypress/reports cypress/reports/full_report.json",
+    "after:tests": "npm run merge-report; npm run generate-report",
+    "cypress": "npm run clean-reports; npm run test; npm run after:tests"
+  },
+  "dependencies": {
+    "axe-core": "3.5.3",
+    "cypress": "^5.0.0",
+    "cypress-axe": "0.5.3",
+    "cypress-xpath": "1.6.0",
+    "mochawesome-merge": "4.1.0",
+    "cypress-mochawesome-reporter": "1.0.2"
+  },
+  "devDependencies": {
+    "axe-core": "3.5.3",
+    "cypress": "^5.0.0",
+    "cypress-axe": "0.5.3"
+  }
+}

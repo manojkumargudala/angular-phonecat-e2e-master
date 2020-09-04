@@ -7,8 +7,7 @@ var homePage = require('../pages/home');
 var detailPage = require('../pages/detail');
 
 describe(
-		'PhoneCat Application for motorolo atix 4g',
-		function() {
+		'PhoneCat Application for motorolo atix 4g', function() {
 
 			beforeEach(function() {
 				homePage.visit();
@@ -23,7 +22,7 @@ describe(
 					'should filter the phone list as a user types into the search box and show details of a selected phone',
 					function() {
 						var phoneList = homePage.getPhoneList();
-						browser.pause();
+						//browser.pause();
 						expect(phoneList.count()).toBe(20);
 						pageUtils.takeScreenShot('phones-list');
 
@@ -57,7 +56,7 @@ describe(
 					'this is another test case',
 					function() {
 						var phoneList = homePage.getPhoneList();
-						browser.pause();
+						//browser.pause();
 						expect(phoneList.count()).toBe(20);
 						pageUtils.takeScreenShot('phones-list');
 
@@ -107,7 +106,7 @@ describe(
 							'should filter the phone list as a user types into the search box and show details of a selected phone',
 							function() {
 								var phoneList = homePage.getPhoneList();
-								browser.pause();
+								//browser.pause();
 								expect(phoneList.count()).toBe(20);
 								pageUtils.takeScreenShot('phones-list');
 
@@ -141,7 +140,7 @@ describe(
 					'this is another test case',
 					function() {
 						var phoneList = homePage.getPhoneList();
-						browser.pause();
+						//browser.pause();
 						expect(phoneList.count()).toBe(20);
 						pageUtils.takeScreenShot('phones-list');
 
