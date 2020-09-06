@@ -16,7 +16,8 @@
     "cypress-axe": "0.5.3",
     "cypress-xpath": "1.6.0",
     "mochawesome-merge": "4.1.0",
-    "cypress-mochawesome-reporter": "1.0.2"
+    "cypress-mochawesome-reporter": "1.0.2",
+    "@4tw/cypress-drag-drop": "1.4.0"
   },
   "devDependencies": {
     "axe-core": "3.5.3",
