@@ -51,7 +51,7 @@ const dragTo = (subject, to, opts) => {
 
   opts = Cypress._.defaults(opts, {
     // delay inbetween steps
-    delay: 0,
+    delay: 10,
     // interpolation between coords
     steps: 0,
     // >=10 steps
