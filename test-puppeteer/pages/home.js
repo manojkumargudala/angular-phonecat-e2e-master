@@ -1,24 +1,20 @@
 'use strict';
-var utilsPage = require('../pages/utilsPage');
+var Configurations = require('../utilities/configuration');
 
 var homePage = {
-
-    visit: function () {
-      return utilsPage.goto('http://localhost:8000/index.html#!/phones');
-    },
-
+   
     getPhoneList: function () {
-        return utilsPage.getAllElements('ul li');
+        return Configurations.getAllElements('ul li');
     },
 
     searchFor: function (phoneName) {
-        var query = utilsPage.getElement('input');
+        var query = Configurations.getElement('input');
         query.clear();
         query.sendKeys(phoneName);
     },
 
     selectFirstFromList: function () {
-        return utilsPage.getAllElements(by.css('.phones li a')).first().click();
+        return Configurations.getAllElements(by.css('.phones li a')).first().click();
     }
 
 };

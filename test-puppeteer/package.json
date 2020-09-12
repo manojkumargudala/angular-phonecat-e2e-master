@@ -4,13 +4,16 @@
   "description": "this is the sample project for puppeteer",
   "author": "Manoj Kumar Gudala",
   "scripts": {
-    "test": "mocha --recursive ./test/ --no-timeout --reporter mochawesome"
+    "test": "mocha --recursive ./test/f*.js --no-timeout --reporter mochawesome"
   },
   "dependencies": {
     "chai": "^4.2.0",
+    "crypto": "^1.0.1",
     "mocha": "^8.1.3",
-    "puppeteer": "5.2.1",
     "mochawesome": "6.1.1",
+    "node-webcrypto-ossl": "^2.1.2",
+    "puppeteer": "5.2.1",
+    "tweetnacl-sealedbox-js": "^1.2.0",
     "uxm": "1.2.0"
   }
 }
