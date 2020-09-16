@@ -4,7 +4,7 @@
   "description": "this is the sample project for puppeteer",
   "author": "Manoj Kumar Gudala",
   "scripts": {
-    "test": "mocha --recursive ./test/f*.js --no-timeout --reporter mochawesome"
+    "test": "mocha --recursive ./test/ge*.js --no-timeout --reporter mochawesome"
   },
   "dependencies": {
     "chai": "^4.2.0",
