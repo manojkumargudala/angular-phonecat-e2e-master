@@ -1,0 +1,6 @@
+pip install xlrd
+pip install pandas
+pip install selenium
+pip install BeautifulSoup4
+pip install xlwt
+pip install openpyxl

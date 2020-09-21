@@ -6,3 +6,4 @@ bower_components
 test/node_modules
 test/output
 phantomjsdriver.log
+test-puppeteer/url.pdf

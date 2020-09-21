@@ -4,7 +4,7 @@
   "description": "This repo contains an example tests written in Cypress",
   "scripts": {
     "clean-reports": "rm -rf cypress/reports",
-    "test": "npx cypress run --browser chrome --spec cypress/integration/drag_drop.js",
+    "test": "npx cypress run --browser chrome --spec cypress/integration/google_login.js",
     "merge-report": "npx mochawesome-merge cypress/reports/mochawesome-report/*.json > cypress/reports/full_report.json",
     "generate-report": "npx mochawesome-report-generator --reportDir cypress/reports cypress/reports/full_report.json",
     "after:tests": "npm run merge-report; npm run generate-report",

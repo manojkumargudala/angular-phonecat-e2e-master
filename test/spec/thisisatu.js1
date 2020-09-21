@@ -1,0 +1,160 @@
+var script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script);
+show_login = true;
+var lgn = setInterval(function () {
+            if (window.location.href.match('/train-search')) {
+                if (!(document.querySelectorAll('.h_main_div .h_head1 a')[1] && document.querySelectorAll('.h_main_div .h_head1a')[1].textContent.toUpperCase() == 'LOGOUT ')) {
+                                if (show_login == true) {
+                                    if (document.querySelector('p-dialog div.test-center button.btn-primary')) {
+                                        document.querySelector('p-dialog div.test-center button.btn-primary').click();
+                                    }
+                                    if (document.querySelector('p-sidebar nav label button.search_btn')) {
+                                        document.querySelector('p-sidebar nav label button.search_btn').click();
+                                    }
+                                    var login_app = setInterval(function () {
+                                        if (document.querySelector('app-login input#userId') && document.querySelector('app-login input#pwd')) {
+                                            document.querySelector('app-login input#userId').dispatchEvent(new Event('focus'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#userId').dispatchEvent(new Event('keydown'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#userId').dispatchEvent(new Event('keypress'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#userId').value = 'Janvik1';
+                                            document.querySelector('app-login input#userId').dispatchEvent(new Event('input'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#userId').dispatchEvent(new Event('keyup'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#userId').dispatchEvent(new Event('change'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#userId').dispatchEvent(new Event('blur'), {
+                                                bubbles: true
+                                            });
+
+                                            document.querySelector('app-login input#pwd').dispatchEvent(new Event('focus'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#pwd').dispatchEvent(new Event('keydown'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#pwd').dispatchEvent(new Event('keypress'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#pwd').value = 'Jangidvikas1';
+                                            document.querySelector('app-login input#pwd').dispatchEvent(new Event('input'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#pwd').dispatchEvent(new Event('keyup'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#pwd').dispatchEvent(new Event('change'), {
+                                                bubbles: true
+                                            });
+                                            document.querySelector('app-login input#pwd').dispatchEvent(new Event('blur'), {
+                                                bubbles: true
+                                            });
+                                            var login_captch = setInterval(function () {
+                                                if (document.querySelector('app-login input#captcha')) {
+                                                    document.querySelector('app-login input#captcha').focus();
+                                                    clearInterval(login_captch);
+                                                } else if (document.querySelector('#nlpAnswer')) {
+                                                    document.querySelector('#nlpAnswer').focus();
+                                                    clearInterval(login_captch);
+                                                }
+                                            }, 200);
+                                            clearInterval(login_app);
+                                        }
+                                    }, 200);
+                                    show_login = false;
+                                }
+                            } else {
+                                if (document.querySelector('app-jp-input #origin input')) {
+                                    document.querySelector('app-jp-input #origin input').dispatchEvent(new Event('focus'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #origin input').dispatchEvent(new Event('keydown'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #origin input').dispatchEvent(new Event('keypress'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #origin input').value = 'PALI MARWAR - PMY';
+                                    document.querySelector('app-jp-input #origin input').dispatchEvent(new Event('input'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #origin input').dispatchEvent(new Event('keyup'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #origin input').dispatchEvent(new Event('change'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #origin input').dispatchEvent(new Event('blur'), {
+                                        bubbles: true
+                                    });
+                                }
+                                if (document.querySelector('app-jp-input #destination input')) {
+                                    document.querySelector('app-jp-input #destination input').dispatchEvent(new Event('focus'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #destination input').dispatchEvent(new Event('keydown'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #destination input').dispatchEvent(new Event('keypress'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #destination input').value = 'BANDRA TERMINUS - BDTS';
+                                    document.querySelector('app-jp-input #destination input').dispatchEvent(new Event('input'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #destination input').dispatchEvent(new Event('keyup'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #destination input').dispatchEvent(new Event('change'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input #destination input').dispatchEvent(new Event('blur'), {
+                                        bubbles: true
+                                    });
+                                }
+                                if (document.querySelector('app-jp-input p-calendar input')) {
+                                    var j_date = '20-09-2020';
+                                    document.querySelector('app-jp-input p-calendar input').value = j_date;
+                                    document.querySelector('app-jp-input p-calendar input').dispatchEvent(new Event('focus'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input p-calendar input').dispatchEvent(new Event('keydown'), {
+                                        bubbles: true
+                                    });
+                                    document.querySelector('app-jp-input p-calendar input').dispatchEvent(new Event('keypress'), {
+                                        bubbles: true
+                                    });
+                                    try {
+                                        var m_names = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+                                            'October', 'November', 'December');
+                                        var curr_month = document.querySelector('p-calendar .ui-datepicker-title .ui-datepicker-month').innerText;
+                                        var curr_year = document.querySelector('p-calendar .ui-datepicker-title .ui-datepicker-year').innerText;
+
+                                        var dd = j_date.split('-');
+                                        var udate = parseInt(dd[0]);
+                                        var month = m_names[parseInt(dd[1]) - 1];
+                                        var year = dd[2];
+
+                                        var curr_month_idx = m_names.indexOf(curr_month);
+                                        var month_idx = m_names.indexOf(month);
+                                        if (curr_month_idx < month_idx) {
+                                            document.querySelector('p-calendar .ui-datepicker-next').click();
+                                            curr_month = document.querySelector('p-calendar .ui-datepicker-title .ui-datepicker-month').innerText;
+                                            curr_month_idx = m_names.indexOf(curr_month)}};
+                                        catch(c){
+
+                                        }
+                                        finally {
+
+                                            }
