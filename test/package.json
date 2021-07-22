@@ -14,7 +14,7 @@
 		"shelljs": "~0.8.2",
 		"wrench": "~1.5.8",
 		"xls-to-json": "0.5.0",
-		"xlsx": "0.13.0"
+		"xlsx": "0.17.0"
 	},
 	"engine": "node >= v5.0.0",
 	"dependencies": {
