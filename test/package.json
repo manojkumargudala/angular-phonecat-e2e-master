@@ -5,7 +5,7 @@
 	"devDependencies": {
 		"convert-csv-to-json": "0.0.13",
 		"gulp": "^4.0.2",
-		"log4js": "~6.3.0",
+		"log4js": "~6.4.0",
 		"mysql": "2.16.0",
 		"node-xlsx": "0.12.1",
 		"protractor": "^7.0.0",
